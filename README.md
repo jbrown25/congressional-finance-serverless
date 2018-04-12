@@ -1,0 +1,3 @@
+# Congressional Finance App Lambda Function
+
+[AWS Lambda](https://aws.amazon.com/lambda/) function that requests data from the [Propublica]() congressional API and [OpenSecrets](https://www.opensecrets.org/open-data/api) API, then exposes it with [AWS API Gateway](https://aws.amazon.com/api-gateway/) HTTPS endpoints.  Made with the [Serverless Framework](https://serverless.com) and uses[Axios](https://www.npmjs.com/package/axios) for the API calls.
