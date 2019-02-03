@@ -5,7 +5,7 @@ const cors = require('cors');
 const app = express();
 const PROPUBLICA_KEY = process.env.PROPUBLICA_KEY;
 const OPENSECRETS_KEY = process.env.OPENSECRETS_KEY;
-const PROPUBLICA_ENDPOINT = 'https://api.propublica.org/congress/v1/115/house/members.json';	
+const PROPUBLICA_ENDPOINT = 'https://api.propublica.org/congress/v1/116/house/members.json';	
 const OPENSECRETS_ENDPOINT = 'http://www.opensecrets.org/api/?method=';
 
 app.use(cors());
